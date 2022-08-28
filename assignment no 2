@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+    </body>
+    <script>
+    let savings = window.prompt("please enter your savings")
+    if (savings >= 1000000) {
+        console.log(" eligible for a loan up to sh100000")
+
+    }
+    else if( savings >=10000 && savings <=50000){
+        console.log("eligible for sh5000 loan")
+    }
+    else{ 
+        console.log("not eligible for any loan")
+    }
+    </script>
+</html>
