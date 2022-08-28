@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     </head>
+    <body>
+
+    </body>
+    <script>
+        var marks = window.prompt("please enter your marks")
+        if (marks <= 75 && marks == 100) {
+            console.log("A")
+            }
+        if( marks >=65 && marks <=74) {
+            console.log("B")
+        } 
+
+        if( marks >=55 && marks <=64 ) {
+            console.log("C") 
+        }
+        if( marks>=45 && marks<= 54){
+            console.log("D")
+
+        }
+        else{
+            console.log("fail")
+        }
+    </script>
+</html>
